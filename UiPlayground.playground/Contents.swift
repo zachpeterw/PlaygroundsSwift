@@ -26,6 +26,12 @@ var myFirstLabel = UILabel()
 myFirstLabel.text = "great label"
 
 var mySecondLabel = UILabel()
+mySecondLabel.text = "amazing label"
 
 var mySecondButton = UIButton()
+mySecondButton.setTitle("thats a great button" ,forState: .Normal)
+
+let myDatePicker : UIDatePicker = UIDatePicker()
+myDatePicker.frame = CGRectMake(0, 50, 200, 200)
+myDatePicker.backgroundColor = UIColor.blueColor()
 
